@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair by Markéta</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+   <section class="hlavicka" >
+<header class="header ">
+        <img src="/images/logo (kopie).webp" height="100px" class="header__image">
+		<h1 class="header__logo">Hair by Markéta</h1>
+	</header>
+	<nav class="menu">
+	<input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+	<label for="menu-checkbox" class="menu__toggler"><i class="fa-solid fa-bars" id="menu"> Menu</i></label>
+		<ul class="menu__list">
+			<li class="menu__item"><a href="/index/" class="menu__link">O nás</a></li>
+			<li class="menu__item"><a href="/sluzby/" class="menu__link">Služby</a></li>
+			<li class="menu__item"><a href="/cenik/" class="menu__link">Ceník</a></li>
+            <li class="menu__item"><a href="/promeny/" class="menu__link">Proměny</a></li>
+            <li class="menu__item"><a href="/kontakt/" class="menu__link">Kontakt</a></li>
+		</ul>
+	</nav> </section>
+
+	<main class="main">
+{{ content | safe }}
+
+    
+	<footer class="footer">
+    <h3 class="footer__title">Kontakt</h3>
+    <div class="footer__kontakt">
+        <div class="kontakt__item--zvetseni">
+            <a href="https://www.instagram.com" class="kontakt__icon">
+                <i class="fab fa-instagram"></i></a>
+            
+                <a href="https://www.instagram.com" class="kontakt__odkaz"> <p class="kontakt__description">@hairbymarketa</p></a>
+        </div>
+        <div class="kontakt__item--zvetseni">
+            <a href="https://www.facebook.com" class="kontakt__icon">
+                <i class="fab fa-facebook"></i></a>
+            
+                <a href="https://www.facebook.com" class="kontakt__odkaz"> <p class="kontakt__description">hairbymarketa</p></a>
+        </div>
+        <div class="kontakt__item">
+             
+                <div class="kontakt__icon"><i class="fas fa-house"></i></div>
+            
+            <p class="kontakt__description">Zahradní 65, Jihlava</p></div>
+        
+        <div class="kontakt__item">
+             
+              <div class="kontakt__icon">  <i class="fa-solid fa-phone"></i></div>
+            <p class="kontakt__description">+420 777 666 555</p>
+        </div></div>
+    
+
+    <section class="footer__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20769.581185879277!2d15.572369449999998!3d49.40516785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1scs!2scz!4v1715431125349!5m2!1scs!2scz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <h4>Hair by Markéta</h4>
+</footer>
+
+</body>
+</html>
